@@ -1,0 +1,112 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f5f5dc; 
+  color: #222;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  background-color: #000;     
+  color: #f5f5dc;             
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;        
+  margin-bottom: 30px;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;            
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.options {
+  margin-top: 10px;
+}
+
+.options label {
+  font-weight: normal;
+  margin-right: 15px;
+}
+
+
+button {
+  background-color: #000;
+  color: #f5f5dc;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+
+.mailto {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.mailto a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.mailto a:hover {
+  text-decoration: underline;
+}
+
+.home-link {
+  text-align: center;
+  margin-top: 30px;
+}
+.home-link a {
+  background-color: #000;
+  color: #f5f5dc;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+ 
+.rating {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.rating p {
+  margin: 5px 0;
+}
+.rating p:last-child {
+  font-size: 2rem;
+}
